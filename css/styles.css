@@ -15,7 +15,7 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
-.heder-font {
+.heder-container {
   background-color: var(--white-color);
 }
 /* Cтилизация логотипа */
@@ -68,7 +68,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
 }
-.font-hero {
+.hero-container {
   background-color: var(--dark-font-color);
 }
 
@@ -91,25 +91,36 @@ body {
   font-size: 14px;
   line-height: 1.71;
 }
-.team-font {
+.team-list {
   background-color: var(--button-font-color);
 }
 /* Стилизация футера */
+.logo-link-footer {
+  color: var(--white-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+}
 .adress {
   color: var(--white-color);
   font-size: 14px;
   line-height: 1.71;
 }
 .contact {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--white-op);
   font-size: 14px;
   line-height: 1.71;
+}
+.adress-list{
+  font-style: normal;
 }
 .adress-list .contact:hover,
 .adress-list .contact:focus {
   color: var(--accent-color);
 }
-.address-font {
+.address-conteiner{
   background-color: var(--dark-font-color);
 }
 /* Стилизация main portfolio */
