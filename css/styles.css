@@ -5,13 +5,11 @@
   --white-color: #ffffff;
   --black-color: #000000;
   --white-op: rgba(255, 255, 255, 0.6);
-  --primeri-font-color: #e5e5e5;
   --button-font-color: #f5f4fa;
   --dark-font-color: #2f303a;
 }
 body {
   color: var(--primary-tex-color);
-  background-color: var(--primeri-font-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
@@ -25,6 +23,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 .logo-accent {
   color: var(--accent-color);
@@ -40,9 +39,11 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link:focus,
+.site-nav .active {
   color: var(--accent-color);
 }
 
@@ -66,6 +67,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 .hero-container {
   background-color: var(--dark-font-color);
@@ -74,7 +76,6 @@ body {
 /* Стилизация секий */
 .section-title {
   color: var(--title-text-color);
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -100,6 +101,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 
 .adress {
@@ -111,6 +113,7 @@ body {
   color: var(--white-op);
   font-size: 14px;
   line-height: 1.71;
+  text-decoration: none;
 }
 .adress-list {
   font-style: normal;
@@ -141,16 +144,22 @@ body {
   background-color: var(--accent-color);
 }
 /* Стилизация карточек */
+
 .card-list .card-titele {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  text-decoration: none;
 }
 
 .card-list .card-text {
   color: var(--primary-tex-color);
   font-size: 16px;
   line-height: 1.88;
+  text-decoration: none;
+}
+.card-list .decor {
+  text-decoration: none;
 }
